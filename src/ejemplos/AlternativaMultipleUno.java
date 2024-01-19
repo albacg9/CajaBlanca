@@ -1,17 +1,17 @@
 package ejemplos;
 
-
 import java.util.Scanner;
 
 public class AlternativaMultipleUno {
 	public static void main(String[] args) {
 		/*
-		 * Algoritmo que lee una letra y nos dice si es una a,e, i, o, u o si no
-		 * es vocal
+		 * Algoritmo que lee una letra y nos dice si es una a,e, i, o, u o si no es
+		 * vocal
 		 */
-		char letra;
 		Scanner leer = new Scanner(System.in);
-
+		char letra;
+		System.out.println("Escribe una letra");
+		
 		// hay un problema: no se pueden leer letras del teclado
 		// Solo podemos utilizar un recurso algo enrevesado
 		// paso 1: Utilizo una cadena de caracteres
