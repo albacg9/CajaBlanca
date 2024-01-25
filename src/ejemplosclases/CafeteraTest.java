@@ -14,17 +14,28 @@ class CafeteraTest {
 
 	@Test
 	void testServirTaza() {
-		fail("Not yet implemented");
+		Cafetera cafetera = new Cafetera ();
+		int cantidadServir=500;
+		cafetera.llenarCafetera();
+		cafetera.servirTaza(cantidadServir);
+		cafetera.servirTaza(800);
 	}
 
 	@Test
 	void testVaciarCafetera() {
-		fail("Not yet implemented");
+		Cafetera cafetera=new Cafetera();
+		int vaciarCafetera=0;
+		cafetera.vaciarCafetera();
+		
 	}
 
 	@Test
 	void testAgregarCafe() {
-		fail("Not yet implemented");
+		Cafetera cafetera=new Cafetera();
+		cafetera.vaciarCafetera();
+		int cantidadAgregar=500;
+		cafetera.agregarCafe(cantidadAgregar);
+		cafetera.agregarCafe(800);
 	}
 
 }
